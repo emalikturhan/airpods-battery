@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaPlan">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_mxlarge"
+        android:layout_marginTop="@dimen/spacing_mxlarge"
+        android:text="@string/welcome"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsbold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginBottom="@dimen/spacing_mxlarge"
+        android:src="@drawable/full_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/izinAciklamasi"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:id="@+id/izinAciklamasi"
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:gravity="center"
+        android:text="@string/check1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/transparentText"
+        android:fontFamily="@font/ntsregular"
+        android:layout_marginLeft="@dimen/spacing_xlarge"
+        android:layout_marginRight="@dimen/spacing_xlarge"
+        android:layout_marginBottom="@dimen/spacing_xlarge"/>
+
+    <Button
+        android:id="@+id/btnAllow"
+        android:layout_marginLeft="@dimen/spacing_xlarge"
+        android:layout_marginRight="@dimen/spacing_xlarge"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="@string/allow"
+        android:textAllCaps="true"
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsbold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:layout_below="@id/izinAciklamasi"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/podsbattery_banner_1"
+        android:layout_marginBottom="@dimen/spacing_xmedium"
+        android:layout_below="@id/btnAllow">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

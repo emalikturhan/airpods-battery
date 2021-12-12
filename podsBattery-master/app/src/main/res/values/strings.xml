@@ -1,0 +1,85 @@
+<resources>
+    <string name="appId" translatable="false">ca-app-pub-4082011078901124~1680786408</string>
+    <string name="podsbattery_banner_1" translatable="false">ca-app-pub-4082011078901124/4048268757</string>
+    <string name="podsbattery_gecis_1" translatable="false">ca-app-pub-4082011078901124/4115378051</string>
+    <string name="podsbattery_odullu" translatable="false">ca-app-pub-4082011078901124/4239022204</string>
+
+    <string name="app_name" translatable="false">Pods Battery</string>
+    <string name="allow">Allow</string>
+    <string name="welcome">Welcome to Pods Battery</string>
+    <string name="success">Success!</string>
+    <string name="not_supported">Not Supported</string>
+    <string name="cannot_continue">Cannot Continue</string>
+
+    <string name="waiting_for_air_pods">The connection of the AirPods is being checked.\nMake sure the AirPods are connected to the phone.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="i_love_pods_battery">I love Pods Battery</string>
+
+    <string name="check1">With this application, you can check the battery status of your AirPods and AirPods Pro on your Android device. </string>
+
+    <string name="required">Required</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported. Try restarting your Android device or contact support at appsniff@yandex for help.</string>
+    <string name="ble_not_supported">BLE is not supported. Try restarting your Android device or contact support at appsniff@yandex for help.</string>
+    <string name="grant_location_access">Please grant the app access to the Location Service. The app does not use your GPS location. Location access is needed for using Bluetooth on your device.</string>
+    <string name="bluetooth_needs_to_be_enabled">Bluetooth needs be enabled to access your AirPods battery level. Tap OK to enable Bluetooth.</string>
+    <string name="location_access_not_granted">Location access has not been granted. The app will not be able to find your headphones or earbuds.</string>
+    <string name="bluetooth_does_not_have_required">Your phone does not support the required Bluetooth feature to access your AirPods battery level. You can still give the app a try, but please don\'t post negative reviews. There is nothing we can do until your hardware manufacture resolves the issue. Tap OK for the main screen. Thanks.</string>
+    <string name="need_location_access">Location Service</string>
+    <string name="bluetooth_disabled">Bluetooth is Disabled</string>
+
+    <string name="miui_warning">MIUI detected</string>
+    <string name="miui_warning_desc">The ROM running on this device has known compatibility issues. You can continue but Pods Battery may not work properly.</string>
+    <string name="miui_warning_continue">Continue</string>
+
+    <string name="locationDisabledText">You need to turn on Location to allow Pods Battery to read the status</string>
+    <string name="notPurchasesText">You need to purchase Pro version to allow Pods Battery to read the status</string>
+
+    <string name="title_battery">Battery</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="air_pods_case_desc">Air Pods Case</string>
+    <string name="air_pods_right_desc">Air Pods Right</string>
+    <string name="air_pods_left_desc">Air Pods Left</string>
+
+    <string name="batterySaver">Battery saver (Pro)</string>
+    <string name="batterySaver_desc">Enable this if Bluetooth uses a lot of battery</string>
+
+    <string name="showNotification">Show Notification (Pro)</string>
+    <string name="showNotification_desc">Show automatic and updated notification in notification panel (PRO)</string>
+
+    <string name="info">Info</string>
+    <string name="rate">Rate</string>
+    <string name="about">How to use?</string>
+    <string name="removeAds">Go Premium!</string>
+
+    <string name="app_description">Pods Battery - AirPods Battery\n Lets you monitor the battery status of your AirPods on Android devices.\n \n Pods Battery lets you monitor the battery status of your AirPods on Android devices.\n \n How to use it:\n 1. After installing, open the app once to enable permissions and change any settings you want.\n 2. Simply connect your AirPods and the app will start displaying their battery levels! (Even if the app is closed or your phone is locked)\n \n - Supports \n • Apple AirPods 1\n • AirPods 2\n • AirPods Pro\n \n - Shows a notification with AirPods status when they are connected.\n - Connects when your AirPods connect to your phone \n - View the charging status of your AirPods in and out of the case \n - View the charging status of your case\n \n *Android devices can only see the battery status of the Case if at least one AirPod is in it.\n \n NOTE: The app may work with some Apple AirPods clones. If your AirPods clones do not work with the app please email support so we can change the app to work with your AirPods clones.\n \n NOTE: The app does not work with some Huawei phones. Certain Huawei phones are missing a critical Bluetooth 4.0 feature that allows the app to read AirPods battery levels.\n \n NOTE: The MIUI ROM running has known compatibility issues. You can continue but Pods Battery may not work properly.\n \n Why does the app ask for location permissions?\n This app uses Bluetooth APIs in order to get the AirPod data. The Android OS requires the app to be given location permissions in order to use these Bluetooth APIs. For more info see: https://developer.android.com/guide/topics/connectivity/bluetooth#Permissions\n \n If you have any questions or issues with the app please contact appsniff@yandex first before posting a review as we cannot address your comments in the review forum. Thanks.\n</string>
+    <string name="todo" translatable="false">todo</string>
+    <string name="share">Share with your friends</string>
+    <string name="watch" translatable="false">Watch one ads, be PRO for a while</string>
+    <string name="story_view" translatable="false">Anonymous Story Viewer for Insta</string>
+    <string name="review">Review Us</string>
+    <string name="stalker_analyzer" translatable="false">Stalker Analyzer for Insta</string>
+
+    <string name="privacy_texts" translatable="false">Subscriptions renew automatically at the end each period. Cancel anytime for any reason.</string>
+    <string name="prem_title">Be Premium, Use Unlimited!</string>
+    <string name="use_with_all_models">Use with all models</string>
+    <string name="turn_off_ads">Turn off all ads!</string>
+    <string name="see_battery_status_in_notify">See battery status in notify</string>
+    <string name="only_4_99_monthly" translatable="false">Only $4.99 monthly</string>
+    <string name="continues">CONTINUE</string>
+    <string name="restore_purchase">Restore Purchase</string>
+
+    <string name="onlyone">Only</string>
+    <string name="onlytwo">monthly</string>
+    <string name="annual">annual</string>
+    <string name="general">General</string>
+    <string name="more_apps">More Apps</string>
+
+    <string name="pro_thanks">You are now PRO, thank you!</string>
+    <string name="restore_thanks">Restore Successful, thanks!</string>
+    <string name="error_toast">Error occurred, try again!</string>
+    <string name="ads_error">Ads are closed, enjoy!</string>
+    <string name="share_app">Share Pods Battery</string>
+    <string name="rev_thanks">Thanks ❤️</string>
+    <string name="now_prem">You\'r Premium!</string>
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="allow">İzin Ver</string>
+    <string name="welcome">Pods Battery\'e Hoş Geldiniz</string>
+
+    <string name="waiting_for_air_pods">AirPods\'ların bağlantısı kontrol ediliyor. AirPods\'ların telefona bağlı olduğundan emin olun.</string>
+    <string name="please_wait">Lütfen bekleyiniz…</string>
+    <string name="i_love_pods_battery">Pods Battery\'i seviyorum</string>
+
+    <string name="check1">Bu uygulama ile Android cihazınızda AirPods ve AirPods Pro\'nuzun pil durumunu kontrol edebilirsiniz.</string>
+
+    <string name="required">Gerekli</string>
+    <string name="error_bluetooth_not_supported">Bluetooth desteklenmiyor. Android cihazınızı yeniden başlatmayı deneyin veya yardım için appsniff@yandex adresinden destek ile iletişime geçin.</string>
+    <string name="ble_not_supported">BLE desteklenmiyor. Android cihazınızı yeniden başlatmayı deneyin veya yardım için appsniff@yandex adresinden destek ile iletişime geçin.</string>
+
+    <string name="miui_warning">MIUI algılandı</string>
+    <string name="miui_warning_desc">Bu cihazda çalışan ROM\'un bilinen uyumluluk sorunları var. Devam edebilirsiniz ancak Bölmelerin Pili düzgün çalışmayabilir.</string>
+    <string name="miui_warning_continue">Devam</string>
+
+    <string name="locationDisabledText">Pods Batterry\'nin sarj durumunu okumasına izin vermek için Konum\'u açmanız gerekir</string>
+    <string name="notPurchasesText">Pod Batterry\'nin sarj durumunu okumasına izin vermek için Pro sürümünü satın almanız gerekir</string>
+
+    <string name="title_battery">Batarya</string>
+    <string name="title_settings">Ayarlar</string>
+
+    <string name="air_pods_case_desc">Air Pods Sarj Kutusu</string>
+    <string name="air_pods_right_desc">Air Pods Sağ</string>
+    <string name="air_pods_left_desc">Air Pods Sol</string>
+
+    <string name="batterySaver">Pil tasarrufu (Pro)</string>
+    <string name="batterySaver_desc">Bluetooth çok fazla pil kullanıyorsa bunu etkinleştirin</string>
+
+    <string name="showNotification">Bildirimleri göster (Pro)</string>
+    <string name="showNotification_desc">Bildirim panelinde otomatik ve güncellenmiş bildirimi göster (PRO)</string>
+
+    <string name="about">Nasıl Kullanılır?</string>
+    <string name="removeAds">Premium OL</string>
+
+    <string name="info">Bilgi</string>
+    <string name="rate">Puanla</string>
+    <string name="app_description">Pods Battery - AirPods Batarya\n AirPods\'unuzun pil durumunu Android cihazlarda izlemenizi sağlar.\n Pods Battery, AirPod\'larınızın Android cihazlardaki pil durumunu izlemenizi sağlar.\n \n Nasıl kullanılır:\n 1. Yükledikten sonra, izinleri etkinleştirmek ve istediğiniz ayarları değiştirmek için uygulamayı bir kez açın.\n 2. Basitçe AirPod\'larınızı bağlayın ve uygulama pil seviyelerini göstermeye başlayacaktır! (Uygulama kapalı olsa veya telefonunuz kilitli olsa bile)\n \n - Desteklenen Cihazlar\n • Apple AirPods 1\n • AirPods 2\n • AirPods Pro\n \n - Bağlandıklarında AirPods durumuyla ilgili bir bildirim gösterir.\n - AirPod\'larınız telefonunuza bağlandığında bağlanır\n - AirPod\'larınızın şarj durumunu şarj kutusunun içinde ve dışında görüntüler\n - Şarj kutusunun şarj durumunu görüntüleyin\n \n * Android cihazlar, şarj kutusunun pil durumunu yalnızca içinde en az bir AirPod varsa görebilir.\n \n NOT: Uygulama bazı Apple AirPods klonlarıyla çalışabilir. AirPods klonlarınız uygulamayla çalışmıyorsa lütfen destek ekibine e-posta gönderin, böylece uygulamayı AirPods klonlarınızla çalışacak şekilde değiştirebiliriz.\n \n NOT: Uygulama bazı Huawei telefonlarıyla çalışmaz. Bazı Huawei telefonlarında, uygulamanın AirPods pil seviyelerini okumasına izin veren kritik bir Bluetooth 4.0 özelliği eksiktir.\n \n NOT: Çalışan MIUI ROM\'un bilinen uyumluluk sorunları vardır. Devam edebilirsiniz ancak Pods Battery düzgün çalışmayabilir.\n \n Uygulama neden konum izinleri istiyor? Bu uygulama, AirPod verilerini almak için Bluetooth API\'lerini kullanır. Android OS, bu Bluetooth API\'lerini kullanabilmek için uygulamaya konum izinleri verilmesini gerektirir. Daha fazla bilgi için bkz: https://developer.android.com/guide/topics/connectivity/bluetooth#Permissions\n \n Uygulama ile ilgili herhangi bir sorunuz veya sorununuz varsa, lütfen yorum forumunda yorumlarınızı ele alamayacağımız için bir inceleme yayınlamadan önce lütfen appsniff@yandex ile iletişime geçin. Teşekkürler.\n</string>
+    <string name="grant_location_access">Lütfen uygulamaya Konum Hizmeti için erişim izni verin. Uygulama GPS konumunuzu kullanmaz. Cihazınızda Bluetooth kullanmak için konum erişimi gereklidir.</string>
+    <string name="bluetooth_needs_to_be_enabled">AirPod\'unuzun pil düzeyine erişmek için Bluetooth\'un etkinleştirilmesi gerekiyor. Bluetooth\'u etkinleştirmek için Tamam\'a dokunun.</string>
+    <string name="location_access_not_granted">Konum erişimi verilmemiştir. Uygulama, kulaklıklarınızı veya kulakiçi kulaklıklarınızı bulamayacak.</string>
+    <string name="bluetooth_does_not_have_required">Telefonunuz, AirPod\'unuzun pil düzeyine erişmek için gerekli Bluetooth özelliğini desteklemiyor. Yine de uygulamayı deneyebilirsiniz, ancak lütfen olumsuz yorumlar göndermeyin. Donanım üreticiniz sorunu çözene kadar yapabileceğimiz hiçbir şey yok. Ana ekran için Tamam\'a dokunun. Teşekkürler.</string>
+    <string name="need_location_access">Konum servisi</string>
+    <string name="bluetooth_disabled">Bluetooth Devre Dışı</string>
+    <string name="success">Başarılı!</string>
+    <string name="not_supported">Desteklenmiyor</string>
+    <string name="cannot_continue">Devam edilemez</string>
+    <string name="share">Arkadaşlarınla paylaş</string>
+    <string name="prem_title">Premium ol, Sınırsız kullan!</string>
+    <string name="use_with_all_models">Tüm modellerle kullan</string>
+    <string name="onlytwo">aylık</string>
+    <string name="onlyone">Sadece</string>
+    <string name="see_battery_status_in_notify">Bildirim panelinde pil durumunu görün</string>
+    <string name="turn_off_ads">Tüm reklamları kapatın!</string>
+    <string name="review">Bizi Değerlendir</string>
+    <string name="general">Genel Ayarlar</string>
+    <string name="more_apps">Daha Fazla Uygulama</string>
+    <string name="pro_thanks">Premium\'sun!</string>
+    <string name="restore_thanks">Geri yükleme başarılı, teşekkürler!</string>
+    <string name="error_toast">Hata oluştu, tekrar deneyin!</string>
+    <string name="ads_error">Reklamlar kapatıldı!</string>
+    <string name="share_app">Pods Battery\'i Paylaş</string>
+    <string name="rev_thanks">Thanks ❤️</string>
+    <string name="now_prem">Premium\'sun!</string>
+    <string name="continues">Devam ET</string>
+    <string name="restore_purchase">Satın Almaları Geri Yükle</string>
+    <string name="annual">yıllık</string>
+
+</resources>

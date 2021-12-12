@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/app_name">
+
+        <Preference
+            app:key="removeAds"
+            app:summary="@string/app_name"
+            app:title="@string/removeAds"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="batterySaver"
+            app:summary="@string/batterySaver_desc"
+            app:title="@string/batterySaver" />
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="showNotification"
+            app:summary="@string/showNotification_desc"
+            app:title="@string/showNotification" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/info"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="rate"
+            app:summary="@string/i_love_pods_battery"
+            app:title="@string/rate"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            app:key="about"
+            app:summary="@string/app_name"
+            app:title="@string/about"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

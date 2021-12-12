@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/arkaPlan">
+
+    <TextView
+        android:id="@+id/txtPodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsregular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/transparentText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/leftPodImg"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/podpro"
+        app:layout_constraintBottom_toBottomOf="@+id/podCaseImg"
+        app:layout_constraintEnd_toStartOf="@+id/rightPodImg"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/podCaseImg"
+        app:layout_constraintVertical_bias="0.0"
+        android:contentDescription="@string/air_pods_left_desc" />
+
+    <eo.view.batterymeter.BatteryMeterView
+        android:id="@+id/leftMeterView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:batteryMeterChargeLevel="80"
+        app:batteryMeterChargingColor="#4caf50"
+        app:batteryMeterColor="#0277bd"
+        app:batteryMeterCriticalChargeLevel="15"
+        app:batteryMeterCriticalColor="#d84315"
+        app:batteryMeterIndicatorColor="@android:color/transparent"
+        app:batteryMeterIsCharging="true"
+        app:batteryMeterTheme="rounded"
+        app:batteryMeterUnknownColor="#e0e0e0"
+        app:layout_constraintEnd_toEndOf="@+id/leftPodImg"
+        app:layout_constraintStart_toStartOf="@+id/leftPodImg"
+        app:layout_constraintTop_toTopOf="@+id/rightMeterView"
+        tools:ignore="MissingClass,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/leftPodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leftPodImg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsregular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/transparentText"
+        app:layout_constraintEnd_toEndOf="@+id/leftMeterView"
+        app:layout_constraintStart_toStartOf="@+id/leftMeterView"
+        app:layout_constraintTop_toTopOf="@+id/rightPodText" />
+
+    <eo.view.batterymeter.BatteryMeterView
+        android:id="@+id/rightMeterView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:batteryMeterChargeLevel="80"
+        app:batteryMeterChargingColor="#4caf50"
+        app:batteryMeterColor="#0277bd"
+        app:batteryMeterCriticalChargeLevel="15"
+        app:batteryMeterCriticalColor="#d84315"
+        app:batteryMeterIndicatorColor="@android:color/transparent"
+        app:batteryMeterIsCharging="true"
+        app:batteryMeterTheme="rounded"
+        app:batteryMeterUnknownColor="#e0e0e0"
+        app:layout_constraintEnd_toEndOf="@+id/rightPodImg"
+        app:layout_constraintStart_toStartOf="@+id/rightPodImg"
+        app:layout_constraintTop_toTopOf="@+id/caseMeterView"
+        tools:ignore="MissingClass,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/rightPodImg"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:scaleX="-1"
+        android:src="@drawable/podpro"
+        app:layout_constraintBottom_toBottomOf="@+id/podCaseImg"
+        app:layout_constraintEnd_toStartOf="@+id/podCaseImg"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/leftPodImg"
+        app:layout_constraintTop_toTopOf="@+id/podCaseImg"
+        app:layout_constraintVertical_bias="0.0"
+        android:contentDescription="@string/air_pods_right_desc" />
+
+    <TextView
+        android:id="@+id/rightPodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rightPodImg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsregular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/transparentText"
+        app:layout_constraintEnd_toEndOf="@+id/rightMeterView"
+        app:layout_constraintStart_toStartOf="@+id/rightMeterView"
+        app:layout_constraintTop_toTopOf="@+id/podCaseText" />
+
+    <eo.view.batterymeter.BatteryMeterView
+        android:id="@+id/caseMeterView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        app:batteryMeterChargeLevel="80"
+        app:batteryMeterChargingColor="#4caf50"
+        app:batteryMeterColor="#0277bd"
+        app:batteryMeterCriticalChargeLevel="15"
+        app:batteryMeterCriticalColor="#d84315"
+        app:batteryMeterIndicatorColor="@android:color/transparent"
+        app:batteryMeterIsCharging="true"
+        app:batteryMeterTheme="rounded"
+        app:batteryMeterUnknownColor="#e0e0e0"
+        app:layout_constraintEnd_toEndOf="@+id/podCaseImg"
+        app:layout_constraintStart_toStartOf="@+id/podCaseImg"
+        app:layout_constraintTop_toBottomOf="@+id/podCaseImg"
+        tools:ignore="MissingClass,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/podCaseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/podCaseImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="0dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/ntsregular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/transparentText"
+        app:layout_constraintEnd_toEndOf="@+id/caseMeterView"
+        app:layout_constraintStart_toStartOf="@+id/caseMeterView"
+        app:layout_constraintTop_toBottomOf="@+id/caseMeterView" />
+
+    <ImageView
+        android:id="@+id/podCaseImg"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/air_pods_case_desc"
+        android:src="@drawable/podpro_case"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rightPodImg"
+        app:layout_constraintTop_toBottomOf="@+id/txtPodName" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rightPodText"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:layout_marginBottom="@dimen/spacing_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/podsbattery_banner_1">
+    </com.google.android.gms.ads.AdView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/buyPrem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_smlarge"
+        android:layout_marginTop="@dimen/spacing_smlarge"
+        android:layout_marginRight="@dimen/spacing_smlarge"
+        app:cardBackgroundColor="@color/textKutusu"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adView" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_cards_color"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/spacing_xmedium">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="@dimen/spacing_xmedium"
+                app:lottie_fileName="premium.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true" />
+
+            <TextView
+                android:id="@+id/buyPremText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ntsbold"
+                android:includeFontPadding="false"
+                android:padding="0dp"
+                android:text="@string/removeAds"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/turuncu" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_smlarge"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:layout_marginRight="@dimen/spacing_smlarge"
+        app:cardBackgroundColor="@color/textKutusu"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buyPrem" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_cards_color"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/spacing_xmedium">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lotties"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="@dimen/spacing_xmedium"
+                app:lottie_fileName="setting.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true" />
+
+            <TextView
+                android:id="@+id/buyPremTexst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ntsbold"
+                android:includeFontPadding="false"
+                android:padding="0dp"
+                android:text="@string/title_settings"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/item_menu_press" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+package com.murataygun.podsbattery.util;
+
+public enum FireBaseLogEvent {
+    HAVE_BLUETOOTH_PERMISSION("HAVE_BLUETOOTH_PERMISSION"),
+    NO_BLUETOOTH_PERMISSION("NO_BLUETOOTH_PERMISSION"),
+    LOAD_INTERSTITIAL_AD_COUNT("LOAD_INTERSTITIAL_AD_COUNT"),
+    CLOSED_STARTUP_AD("CLOSED_STARTUP_AD"),
+    STARTUP_INTERSTITIAL_IS_NOT_LOADED("STARTUP_INTERSTITIAL_IS_NOT_LOADED"),
+    STARTUP_INTERSTITIAL_IS_LOADED("STARTUP_INTERSTITIAL_IS_LOADED"),
+    ERROR_LOADING_STARTUP_AD("ERROR_LOADING_STARTUP_AD");
+
+    String key;
+    FireBaseLogEvent(String key) {
+        this.key = key;
+    }
+
+    public String getKey() {
+        return key;
+    }
+}

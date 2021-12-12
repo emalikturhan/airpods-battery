@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "594664238040",
+    "firebase_url": "https://pods-battery.firebaseio.com",
+    "project_id": "pods-battery",
+    "storage_bucket": "pods-battery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594664238040:android:cad09ea60ac93ed4a1e0ad",
+        "android_client_info": {
+          "package_name": "com.murataygun.podsbattery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594664238040-mef5tr5jcqkcm7h737ge4lb6gsi71vup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAMLvXREc39jiBW3o8HrvrZYrhE1xMr6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594664238040-mef5tr5jcqkcm7h737ge4lb6gsi71vup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

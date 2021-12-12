@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultMap>
+    <entry>
+        <key>monthlyold</key>
+        <value>monthlyold</value>
+    </entry>
+    <entry>
+        <key>monthlynew</key>
+        <value>monthlynew</value>
+    </entry>
+    <entry>
+        <key>yearly</key>
+        <value>yearly</value>
+    </entry>
+</defaultMap>

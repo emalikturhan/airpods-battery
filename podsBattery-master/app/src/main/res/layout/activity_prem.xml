@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/arkaPlan">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lottie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/news"
+            android:scaleType="centerCrop"
+            android:layout_above="@id/textViewTitle"
+            android:contentDescription="@string/todo">
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/imgExit"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginEnd="20dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_close_white"
+            android:background="@drawable/background_market_close"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/todo"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/prem_title"
+            android:padding="0dp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/ntsmedium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:layout_above="@id/textViewDescription" />
+
+        <LinearLayout
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="18dp"
+            android:layout_above="@id/buttonSubscribe">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/use_with_all_models"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/ntsregular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/transparentText"
+                android:drawablePadding="12dp"
+                app:drawableStartCompat="@drawable/ic_done_white_24dp"
+                app:drawableTint="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/turn_off_ads"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/ntsregular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/item_menu_press"
+                android:drawablePadding="12dp"
+                app:drawableStartCompat="@drawable/ic_done_white_24dp"
+                app:drawableTint="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/see_battery_status_in_notify"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/ntsregular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/item_menu_press"
+                android:drawablePadding="12dp"
+                app:drawableStartCompat="@drawable/ic_done_white_24dp"
+                app:drawableTint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/priceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/only_4_99_monthly"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/ntsregular"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/transparentText"
+                android:drawablePadding="12dp"
+                app:drawableStartCompat="@drawable/ic_done_white_24dp"
+                app:drawableTint="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buttonSubscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false"
+            android:layout_above="@id/restore">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/spacing_middle">
+
+                <TextView
+                    android:id="@+id/buyPremTexst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/ntsbold"
+                    android:includeFontPadding="false"
+                    android:padding="0dp"
+                    android:textAllCaps="true"
+                    android:text="@string/continues"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textColor="@color/arkaPlan" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/restore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="@dimen/spacing_xmedium"
+            android:gravity="center"
+            android:text="@string/restore_purchase"
+            android:padding="0dp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/ntsregular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textColor="@color/transparentText"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_above="@id/textViewTermsa"/>
+
+        <TextView
+            android:id="@+id/textViewTermsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/privacy_texts"
+            android:padding="0dp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/ntsregular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/transparentText"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
